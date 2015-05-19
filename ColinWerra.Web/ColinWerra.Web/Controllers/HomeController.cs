@@ -9,7 +9,7 @@ namespace ColinWerra.Web.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        public ActionResult Index()
+        public ViewResult Index()
         {
             return View();
         }

@@ -1,17 +1,22 @@
-﻿
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>_Layout</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div> 
+    <div class="navbar navbar-inverse" role="navigation"> 
+        <a class="navbar-brand" href="#">Colin Werra</a>
+    </div>
+    <div class="btn-group btn-toolbar" role="navigation">
+        <a class="btn btn-primary">About</a>
+    </div>
+    <div>
+        @RenderBody()
     </div>
 </body>
 </html>
