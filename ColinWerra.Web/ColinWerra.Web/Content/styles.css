@@ -7,7 +7,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-color: ThreeDLightShadow;
+  background-color: white;
 }
 .footer {
   position: absolute;
@@ -37,4 +37,21 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #000;
+   background-color: lightblue;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #000;
+      background-color: lightblue;
+
+ }
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+    background-color: lightblue;
+    color: #000;
 }
