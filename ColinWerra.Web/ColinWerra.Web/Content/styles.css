@@ -7,6 +7,10 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-image: url("stockvault-smoke.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%, 100%;
   background-color: white;
 }
 .footer {
@@ -15,7 +19,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: #191919;
 }
 
 
@@ -39,19 +43,27 @@ code {
   font-size: 80%;
 }
 
+.navbar-default{
+    background-color: #191919;
+}
+
 .navbar-default .navbar-nav > .active{
     color: #000;
-   background-color: lightblue;
+   background-color: white;
  }
  .navbar-default .navbar-nav > .active > a, 
  .navbar-default .navbar-nav > .active > a:hover, 
  .navbar-default .navbar-nav > .active > a:focus {
       color: #000;
-      background-color: lightblue;
+      background-color: white;
 
  }
  .navbar-default .navbar-nav > li > a:hover,
  .navbar-default .navbar-nav > li > a:focus {
-    background-color: lightblue;
+    background-color: white;
     color: #000;
+}
+
+.page-header{
+    color: white;
 }
