@@ -33,7 +33,7 @@
                     <li><a href="@Url.Action("Index", "Home")">Home</a></li>
                     <li><a href="@Url.Action("Index", "About")">About</a></li>
                     <li><a href="@Url.Action("Index", "Contact")">Contact</a></li>
-                    <li><a href="~/files/FakeResume.pdf">Resume</a></li>
+                    <li><a href="~/files/Resume.pdf">Resume</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="http://www.linkedin.com/in/colinwerra"><img src="~/files/LinkedIn_Icon.jpg" alt="LinkedIn Icon" height="18" width="18" />LinkedIn</a></li>
@@ -48,7 +48,13 @@
 
     <footer class="footer">
         <div class="container">
-            <p class="text-muted text-right">Footer stuff</p>
+            <p class="text-muted text-right">
+                <script type="text/javascript">
+                    document.write("Last Modified: " + new Date().getMonth() + "-");
+                    document.write(new Date().getDate() + "-");
+                    document.write(new Date().getFullYear());
+                </script>
+            </p>
         </div>
     </footer>
 
