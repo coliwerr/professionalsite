@@ -92,11 +92,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\files\iStock-Code.jpg" />
+    <Content Include="Content\files\TECH-5.jpg" />
     <Content Include="Content\styles.css" />
-    <Content Include="files\awesome_face.jpg" />
-    <Content Include="files\LinkedIn_Icon.jpg" />
-    <Content Include="files\stockvault-smoke.jpg" />
-    <Content Include="files\Twitter_logo.jpg" />
+    <Content Include="Content\files\awesome_face.jpg" />
+    <Content Include="Content\files\LinkedIn_Icon.jpg" />
+    <Content Include="Content\files\Twitter_logo.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -105,7 +106,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="files\Resume.pdf" />
+    <Content Include="Content\files\Resume.pdf" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="Scripts\activeTab.js" />

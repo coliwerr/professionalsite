@@ -7,8 +7,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  background-image: url("stockvault-smoke.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/Content/files/TECH-5.jpg");
+  background-repeat :no-repeat;
   background-attachment: fixed;
   background-size: 100%, 100%;
   background-color: white;
