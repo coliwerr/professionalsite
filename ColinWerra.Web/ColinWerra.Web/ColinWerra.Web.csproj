@@ -92,7 +92,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\files\boom.jpg" />
+    <Content Include="Content\files\Chess.jpg" />
     <Content Include="Content\files\iStock-Code.jpg" />
+    <Content Include="Content\files\masthead.jpg" />
     <Content Include="Content\files\TECH-5.jpg" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\files\awesome_face.jpg" />
