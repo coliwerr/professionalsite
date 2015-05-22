@@ -138,6 +138,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
