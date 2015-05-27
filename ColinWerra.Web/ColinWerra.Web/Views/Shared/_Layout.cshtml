@@ -12,11 +12,7 @@
 
     <!-- Custom styles for this template -->
     <link href="~/Content/styles.css" rel="stylesheet">
-    @{
-        #if !DEBUG
-        Html.Partial("_GoogleAnalytics");
-        #endif
-    }
+    @Html.Partial("_GoogleAnalytics")
 </head>
 
 <body>
