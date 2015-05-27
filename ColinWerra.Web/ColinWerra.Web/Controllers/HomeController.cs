@@ -13,5 +13,10 @@ namespace ColinWerra.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult ExceptionTest()
+        {
+            throw new Exception("An exceptional exception.");
+        }
     }
 }
