@@ -12,20 +12,22 @@ namespace ColinWerra.Web
 #endif
 
 
-            bundles.Add(new StyleBundle("~/Content/css"/*,
-                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"*/).Include(
+            bundles.Add(new StyleBundle("~/bundles/css",
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css").Include(
                 "~/Content/bootstrap.css"));
 
-            bundles.Add(new StyleBundle("~/Content/customcss").Include(
+            bundles.Add(new StyleBundle("~/bundles/customCss").Include(
                 "~/Content/styles.css"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryscripts",
+            bundles.Add(new ScriptBundle("~/bundles/jqueryScripts",
                 "//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js").Include(
                 "~/Scripts/jquery-2.1.4.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/websitescripts",
+            bundles.Add(new ScriptBundle("~/bundles/websiteScripts",
                 "//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js").Include(
-                "~/Scripts/bootstrap.js",
+                "~/Scripts/bootstrap.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/tabScript").Include(
                 "~/Scripts/activeTab.js"));
         }
     }
