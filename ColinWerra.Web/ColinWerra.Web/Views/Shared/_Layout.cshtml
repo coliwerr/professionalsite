@@ -9,6 +9,8 @@
 
     @Styles.Render("~/Content/css")
 
+    @Styles.Render("~/Content/customcss")
+
     @Html.Partial("_GoogleAnalytics")
 </head>
 
@@ -20,7 +22,9 @@
         @RenderBody()
     </div>
 
-    @Html.Partial("_Footer")    
+    @Html.Partial("_Footer")
+
+    @Scripts.Render("~/bundles/jqueryscripts")
 
     @Scripts.Render("~/bundles/websitescripts")
 
