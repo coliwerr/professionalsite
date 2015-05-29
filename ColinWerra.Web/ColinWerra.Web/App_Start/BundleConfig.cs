@@ -6,6 +6,11 @@ namespace ColinWerra.Web
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
+#if !DEBUG
+            bundles.UseCdn = true;
+            BundleTable.EnableOptimizations = true;
+#endif
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.min.css",
                 "~/Content/styles.css"));
