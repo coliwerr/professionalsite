@@ -11,6 +11,7 @@ namespace ColinWerra.Web
             BundleTable.EnableOptimizations = true;
 #endif
 
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.min.css",
                 "~/Content/styles.css"));
